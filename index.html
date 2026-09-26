@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NANZ - VEXA DELUXE</title>
+<style>
+body{margin:0;background:#120000;color:white;font-family:Arial;padding:20px}
+main{max-width:500px;margin:auto}
+.box{background:#260000;border:1px solid #f22;border-radius:16px;padding:18px;margin-bottom:15px}
+h1{text-align:center;color:#ff3333}
+h2{color:#ff4444}
+.item{background:#430000;border:1px solid #8b1111;border-radius:10px;padding:15px;margin:9px 0;display:flex;justify-content:space-between;cursor:pointer}
+.item:hover{background:#650000}
+.buy{background:#f22;padding:6px 10px;border-radius:7px}
+.center{text-align:center}
+small{color:#ffaaa9}
+</style>
+</head>
+
+<body>
+<main>
+
+<div class="box center">
+<b style="color:#ff5555;letter-spacing:4px">NANZ</b>
+<h1>🔴 VEXA DELUXE PREMIUM 🔴</h1>
+<small>SIMPLE • FAST • PREMIUM</small>
+</div>
+
+<div class="box">
+<h2>🔴 PRICE LIST</h2>
+
+<div class="item" onclick="order('1 DAY','3K')">
+<b>1 DAY — 3K</b><span class="buy">BELI</span>
+</div>
+
+<div class="item" onclick="order('2 DAY','4K')">
+<b>2 DAY — 4K</b><span class="buy">BELI</span>
+</div>
+
+<div class="item" onclick="order('3 DAY','5K')">
+<b>3 DAY — 5K</b><span class="buy">BELI</span>
+</div>
+
+<div class="item" onclick="order('5 DAY','8K')">
+<b>5 DAY — 8K</b><span class="buy">BELI</span>
+</div>
+
+<div class="item" onclick="order('7 DAY','10K')">
+<b>7 DAY — 10K</b><span class="buy">BELI</span>
+</div>
+
+<div class="item" onclick="order('1 BULAN','15K')">
+<b>1 BULAN — 15K</b><span class="buy">BELI</span>
+</div>
+
+<div class="item" onclick="order('PERMANEN','25K')">
+<b>PERMANEN — 25K</b><span class="buy">BELI</span>
+</div>
+</div>
+
+<div class="box">
+<h2>❤️ KEUNTUNGAN</h2>
+<p>🔴 Proses cepat & simple</p>
+<p>🔴 Fast respon</p>
+<p>🔴 Support pembelian</p>
+<p>🔴 Pilih paket sesuai kebutuhan</p>
+</div>
+
+<div class="box">
+<h2>🔴 FITUR VEXA DELUXE</h2>
+<p>❤️ Sensitivity Settings</p>
+<p>❤️ Responsive Touch</p>
+<p>❤️ DPI & Resolution Settings</p>
+<p>❤️ Custom Control</p>
+<p>❤️ Aim & Drag Settings</p>
+<p>❤️ Smooth Gameplay</p>
+<p>❤️ Easy Configuration</p>
+<p>❤️ Simple & Clean UI</p>
+</div>
+
+<div class="center">
+<small>❤️‍🔥 CHAT LANGSUNG NANZ • FAST RESPON</small>
+<br><br>
+<small>VEXA DELUXE PREMIUM • BY NANZ</small>
+</div>
+
+</main>
+
+<script>
+function order(paket,harga){
+const nomor="628886167506";
+const pesan="Saya ingin membeli produk Vexa Deluxe Premium dengan harga "+harga+" untuk paket "+paket+".";
+window.location.href="https://wa.me/"+nomor+"?text="+encodeURIComponent(pesan);
+}
+</script>
+
+</body>
+</html>
